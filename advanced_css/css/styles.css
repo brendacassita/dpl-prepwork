@@ -1,0 +1,77 @@
+body {
+  background-color: #778899;
+}
+
+.nav-item: {
+  color: #F8F8FF;
+}
+
+a:visited {
+  color: #FFEFDB;
+}
+
+a:hover {
+  color: red;
+}
+
+@keyframes color-changer {
+  0% {
+    left: 0px;
+    top: 0px;
+    background-color: blue;
+  }
+
+  25% {
+    left: 200px;
+    top: 0px;
+    background-color: yellow;
+  }
+
+  50% {
+    left: 200px;
+    top: 200px;
+    background-color: purple;
+  }
+
+  75% {
+    left: 0px;
+    top: 200px;
+    background-color: aqua;
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
+    background-color: white;
+  }
+}
+
+#box {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  animation-name: color-changer;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: 4;
+}
+
+#box:hover {
+  background-color: green;
+}
+
+p:first-letter {
+  font-size: 2em;
+}
+
+#select {
+  background-color: yellow;
+}
+#list li:first-child {
+  background-color: rgb(236, 26, 26);
+  color: #FFF;
+}
+
+#list li:nth-child(2) {
+  background-color: green;
+}

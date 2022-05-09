@@ -1,0 +1,75 @@
+<html>
+  <body>
+    <form>
+      <form action="/my_url" method="POST" target="_blank">
+        <fieldset>
+          <fieldset>
+            <legend>Personal Info</legend>
+            <label for="first">First Name</label>
+            <input id="first" name="first_name" />
+            <br />
+            <label for="last">Last Name</label>
+            <input id="last" name="last_name" />
+            <br />
+            <input type="checkbox" name="subscribe" value="subscribe">Subscribe?</input>
+  <input type="checkbox" name="notify" value="notify">Notify?</input>
+  <input type="checkbox" name="agree" value="agree">Agree To Terms??</input>
+  <br />
+<button type="submit">Submit</button>
+        </form>
+      </fieldset>
+
+      <fieldset>
+        <legend>Choose an animal</legend>
+        <input type="radio" name="animal" value="goat" checked />
+        Goat
+        <br/>
+        <input type="radio" name="animal" value="dog" checked />
+        Dog
+        <br />
+        <input type="radio" name="animal" value="cat" />
+        Cat
+        <br />
+        <button type="submit">Submit</button>
+      </form>
+    </fieldset>
+    <fieldset>
+      <legend>What do you hear</legend>
+      <select name="sound">
+        <option value="laruel">Laurel</option>
+        <option value="yanny">Yanny</option>
+        <option value="both">Both</option>
+        <option value="none">None Of The Above</option>
+      </select>
+    
+    <button type="submit">Submit</button>
+    </fieldset>
+  </form>
+
+  <p>Choose up to 3</p>
+  <select name="hobbies" size="3" multiple>
+    <option value="biking">Biking</option>
+    <option value="video_games">Video Games</option>
+    <option value="hiking">Hiking</option>
+    <option value="napping">Napping</option><br> 
+  </select>
+<br><br>
+  <textarea name="comment" rows="10" cols="50">
+  </textarea>
+
+  <textarea name="comment" rows="10" cols="50">
+    This text will be in the text area
+  </textarea>
+
+  <input list="colors">
+<datalist id="colors">
+  <option value="Red">
+  <option value="Orange">
+  <option value="Yellow">
+  <option value="Blue">
+  <option value="Green">
+  <option value="Indigo">
+  <option value="Violet">
+</datalist>
+    </body>
+<html>

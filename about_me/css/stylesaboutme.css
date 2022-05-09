@@ -1,0 +1,73 @@
+/*<style>
+.center {
+text-align: center;
+}*/
+
+/*THIS IS MY NAVBAR STYLING SECTION*/
+nav a {
+text-decoration: none;
+color: #ff6699;
+transition: .5s;
+}
+
+nav a:hover{
+color: black;
+font-size: 30px;
+}
+
+#nav {
+background: #f7e6ff;
+align-items: center;
+justify-content: space-evenly;
+display: flex;
+}
+
+nav a img {
+height: 50px;
+width: 50px;
+}
+
+.center {
+  text-align: center;
+}
+
+.zebra {
+  text-align: center;
+}
+/* this is styling for my main section*/
+
+
+main img{
+height: 200px;
+width: 200px; 
+}
+main{
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+main{
+background: #f7e6ff;
+align-items: center;
+justify-content: space-evenly;
+display: flex;
+}
+/* this is styling for my footer section*/
+nav a {
+text-decoration: none;
+color: #ff6699;
+transition: .5s;
+}
+
+nav a:hover{
+color: black;
+font-size: 30px;
+}
+
+#foot{
+background: #f7e6ff;
+align-items: center;
+justify-content: space-evenly;
+display: flex;
+}
+</style>

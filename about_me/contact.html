@@ -1,0 +1,85 @@
+<html>
+  <link rel="stylesheet" href="./css/stylescontact.css" />
+  <body>
+    <header>
+      <nav id = "nav">
+      <a href="./index.html">Home</a>
+    </nav>
+  </header>
+      <main>
+          <section>
+      <h4 class="zebra">Personal Email:</h4>
+      <p>brendacassita@gmail.com</p>
+      <h4>Social Media:</h4>
+      
+
+        <a href="https://www.facebook.com/brendacassita/">
+          <img alt="facebook" src="./images/fb.png"
+          width=50" height="50">
+
+          <a href="https://www.instagram.com/bebecassita/">
+            <img alt="instagram" src="./images/ig.png"
+            width=50" height="50">
+          </section>
+
+<p>Send me a message!<p>
+  
+            <div class="lt">
+ 
+              <!-- form starting  -->
+              <form class="form-horizontal"
+                    method="post" action="contact.php">
+                <div class="form-group">
+                  <div class="col-sm-12">
+                    <!-- name  -->
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="name"
+                      placeholder="NAME"
+                      name="name"
+                      value=""
+                    />
+                  </div>
+                </div>
+     
+                <div class="form-group">
+                  <div class="col-sm-12">
+                    <!-- email  -->
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      placeholder="EMAIL"
+                      name="email"
+                      value=""
+                    />
+                  </div>
+                </div>
+     
+                <!-- message  -->
+                <textarea
+                  class="form-control"
+                  rows="10"
+                  placeholder="MESSAGE"
+                  name="message">
+                </textarea>
+     
+                <button
+                  class="btn btn-primary send-button"
+                  id="submit"
+                  type="submit"
+                  value="SEND">
+                  <i class="fa fa-paper-plane"></i>
+                  <span class="send-text">SEND</span>
+                </button>
+              </form>
+              <!-- end of form -->
+        
+        </section>
+        <footer>
+          <nav id="foot">
+          </nav>
+        </footer>
+  </body>
+</html>
